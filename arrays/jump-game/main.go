@@ -5,7 +5,7 @@ import "fmt"
 func main() {
 	nums := []int{2, 3, 1, 1, 4}
 
-	println(jumpGame(nums))
+	fmt.Println(jumpGame(nums))
 }
 
 func jumpGame(nums []int) bool {
